@@ -1,0 +1,54 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  background: rgb(195, 4, 195);
+}
+#feld {
+  width: 40%;
+  min-width: 450px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: white;
+  border-radius: 5px;
+}
+#feld2 {
+  position: relative;
+  padding: 30px 20px;
+}
+#feld2 input {
+  font-size: 15px;
+  padding: 2spx;
+  color: purple;
+  font-weight: 500;
+  position: relative;
+  border-radius: 2px;
+}
+
+#dealead {
+  float: right;
+  color: aliceblue;
+  position: relative;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: blueviolet;
+}
+#add {
+  position: relative;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+#todo-list {
+  font-size: 20px;
+  padding: 20px;
+  position: relative;
+  border-radius: 2px;
+}
